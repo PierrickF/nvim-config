@@ -37,10 +37,10 @@ vim.api.nvim_create_autocmd("Filetype", {
     command = "setlocal tw=72",
 })
 
--- Make the Neotest Summary buffer 60 in width
+-- Make the Neotest Summary buffer 59 in width
 vim.api.nvim_create_autocmd("BufEnter", {
     pattern = "Neotest Summary",
-    command = "vertical resize 60",
+    command = "vertical resize 59",
 })
 
 -- Always open nvim-tree
