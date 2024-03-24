@@ -5,6 +5,7 @@ local M = {
         "nvim-lua/plenary.nvim",
         "antoinemadec/FixCursorHold.nvim",
         "nvim-neotest/neotest-go",
+        "nvim-neotest/nvim-nio",
     }
 }
 
